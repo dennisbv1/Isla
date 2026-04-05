@@ -1,0 +1,12 @@
+﻿body { font-family: Arial, sans-serif; background: linear-gradient(#aee, #fff); margin:0; padding:0; }
+#app { max-width:900px; margin: 0 auto; padding: 12px; }
+header { display:flex; justify-content:space-between; align-items:center; }
+#status span { margin-left:10px; font-weight:600; }
+#island { display:grid; grid-template-columns: 1fr 300px; gap:12px; margin-top:12px; }
+.palm { background: #fff9; padding:12px; border-radius:8px; }
+.actions { background:#fff9; padding:12px; border-radius:8px; }
+.store, .inventory, .market { background:#fff9; padding:12px; border-radius:8px; margin-top:12px; }
+button { padding:8px 12px; border-radius:6px; border: none; background:#0a74da; color:white; cursor:pointer; }
+button.secondary { background:#666; }
+.item { padding:6px; border-bottom:1px solid #eee; display:flex; justify-content:space-between; align-items:center; }
+small { color:#333; }
