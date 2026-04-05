@@ -1,2 +1,0 @@
-# Isla
-bot de telegram
